@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              6194A0DAF15F417EB46CEEAC /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A4941730FE2D4876A13C1537 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            A4D207D6189E40B790389117 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            8AA355DB88924F69A52555D5 /* PBXTargetDependency */,
+                            9B596A4E26D14BFFBDCF37CB /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              E2C31C7960E446A699B08985 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 7059CFB1503144629F2F5E48 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            282D417904AE4BBB8E258500 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              85E5A2AD611A4124B64E5ADC /* imagesacquisition_automoc */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E1E28906D5274C2F9DE79513 /* Build configuration list for PBXAggregateTarget "imagesacquisition_automoc" */;
+                     buildPhases = (
+                            350AE4EF895049B3A15EAFF1 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = imagesacquisition_automoc;
+                     productName = imagesacquisition_automoc;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+C8D2DA86FC984D9EBFA2828C /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 571F1EF56E98408D9C490117 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+8179C6044A504790B7E3D57C /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/imagesacquisition_automoc.cpp */ = {isa = PBXBuildFile; fileRef = 8BEFB99C1C1C49A5AE160F99 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/imagesacquisition_automoc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B98869182C6445D6991E4784 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/ui_ImagesAcquisition.h */ = {isa = PBXBuildFile; fileRef = 6F04B58671384B63BA92FC0E /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/ui_ImagesAcquisition.h */; settings = { COMPILER_FLAGS = ""; }; };
+D2F6D8681F064CDCB04E76D1 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.cpp */ = {isa = PBXBuildFile; fileRef = BAF594E045F3408896100870 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D467B282156440898CF62972 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.h */ = {isa = PBXBuildFile; fileRef = 2BBC4B6129F64880BCA3F202 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.h */; settings = { COMPILER_FLAGS = ""; }; };
+DCC508F09CBD4ECC951C5460 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.cpp */ = {isa = PBXBuildFile; fileRef = 5178862E64D3419D9FD41A4C /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+51E855CF36324B49A158CA22 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.h */ = {isa = PBXBuildFile; fileRef = C811B7F003CE43DB89D0403E /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.h */; settings = { COMPILER_FLAGS = ""; }; };
+426648D65A80434782A48FD2 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.cpp */ = {isa = PBXBuildFile; fileRef = 44744EC3C12F4CFFAFB6B392 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5300BB52A0054B01AB003AB8 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.h */ = {isa = PBXBuildFile; fileRef = 4F08AE79D46C44789A4FD65A /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+01002B04D1F24CDDA01F5847 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisition.ui */ = {isa = PBXBuildFile; fileRef = C55434AFFBEE482BAC789BF6 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisition.ui */; settings = { COMPILER_FLAGS = ""; }; };
+9FDCB55C36EF476984BDCA80 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.cpp */ = {isa = PBXBuildFile; fileRef = 61FEB8DA81134C80AAEA4F00 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+398FC9137C4D4D9B99C9AF83 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.h */ = {isa = PBXBuildFile; fileRef = 61763CE67DB24BACAAFEBC31 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.h */; settings = { COMPILER_FLAGS = ""; }; };
+D21E61DF6785403AA6004FB4 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.cpp */ = {isa = PBXBuildFile; fileRef = 5F12E2119AC24E01B5309792 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A9E853C4C6E24FD4A2CC422F /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.h */ = {isa = PBXBuildFile; fileRef = CB7F1AAF1E634BD489D677C3 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.h */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              8958790A2AA84E41B6BBCB7E /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              0893621E012B4449925CD7D1 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              71B58C6C34B94952940D1CC2 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              FC3C343F210948CFB20915A3 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              7824D8C94A344413A51C2391 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              6FD8184518114B4D9EB45794 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = D1B153F092234DA883042318 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 1815469D3A164980AB890C71;
+                     remoteInfo = imagesacquisition;
+              };
+              F0B8BDA7E1AB4F8488A9B7DA /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = D1B153F092234DA883042318 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E2C31C7960E446A699B08985;
+                     remoteInfo = ZERO_CHECK;
+              };
+              267F76AEDC8D4EC09BEB5CCE /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = D1B153F092234DA883042318 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E2C31C7960E446A699B08985;
+                     remoteInfo = ZERO_CHECK;
+              };
+              10501613545346FFBB029704 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = D1B153F092234DA883042318 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 85E5A2AD611A4124B64E5ADC;
+                     remoteInfo = imagesacquisition_automoc;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+9E4EE872BD1D425188EB68B7 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B56E7E621F5B4479A46BFABB /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+571F1EF56E98408D9C490117 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+8BEFB99C1C1C49A5AE160F99 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/imagesacquisition_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "imagesacquisition_automoc.cpp"; path = "build/imagesacquisition_automoc.cpp"; sourceTree = SOURCE_ROOT; };
+6F04B58671384B63BA92FC0E /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/ui_ImagesAcquisition.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "ui_ImagesAcquisition.h"; path = "build/ui_ImagesAcquisition.h"; sourceTree = SOURCE_ROOT; };
+BAF594E045F3408896100870 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "CaptureThread.cpp"; path = "src/CaptureThread.cpp"; sourceTree = SOURCE_ROOT; };
+2BBC4B6129F64880BCA3F202 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "CaptureThread.h"; path = "src/CaptureThread.h"; sourceTree = SOURCE_ROOT; };
+5178862E64D3419D9FD41A4C /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Controller.cpp"; path = "src/Controller.cpp"; sourceTree = SOURCE_ROOT; };
+C811B7F003CE43DB89D0403E /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "Controller.h"; path = "src/Controller.h"; sourceTree = SOURCE_ROOT; };
+44744EC3C12F4CFFAFB6B392 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ImageBuffer.cpp"; path = "src/ImageBuffer.cpp"; sourceTree = SOURCE_ROOT; };
+4F08AE79D46C44789A4FD65A /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "ImageBuffer.h"; path = "src/ImageBuffer.h"; sourceTree = SOURCE_ROOT; };
+C55434AFFBEE482BAC789BF6 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisition.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = "ImagesAcquisition.ui"; path = "src/ImagesAcquisition.ui"; sourceTree = SOURCE_ROOT; };
+61FEB8DA81134C80AAEA4F00 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ImagesAcquisitionPlugin.cpp"; path = "src/ImagesAcquisitionPlugin.cpp"; sourceTree = SOURCE_ROOT; };
+61763CE67DB24BACAAFEBC31 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "ImagesAcquisitionPlugin.h"; path = "src/ImagesAcquisitionPlugin.h"; sourceTree = SOURCE_ROOT; };
+5F12E2119AC24E01B5309792 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ProcessingThread.cpp"; path = "src/ProcessingThread.cpp"; sourceTree = SOURCE_ROOT; };
+CB7F1AAF1E634BD489D677C3 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "ProcessingThread.h"; path = "src/ProcessingThread.h"; sourceTree = SOURCE_ROOT; };
+837B2474178840C0875C60A1 /* imagesacquisition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libimagesacquisition.dylib"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              8B982E019F204136929DF90B  = {
+                     isa = PBXGroup;
+                     children = (
+                            54E15AB75DDE427AADEBFA63 /* Sources */,
+                            64C23ED700244CDBAF4F3219 /* Resources */,
+                            653CC9D0C40A4A2AB471BEC7 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              54E15AB75DDE427AADEBFA63 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B27672BFCC6442A2A0FABF14 /* imagesacquisition_automoc */,
+                            615FB22234A54FA792A88051 /* imagesacquisition */,
+                            ACC807BC0CEE41839A3D5432 /* ALL_BUILD */,
+                            66B055844D734F29B5DD99A5 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              64C23ED700244CDBAF4F3219 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              B27672BFCC6442A2A0FABF14 /* imagesacquisition_automoc */ = {
+                     isa = PBXGroup;
+                     children = (
+                            00037D3DA23342A7B22ACFBA /* CMake Rules */,
+                     );
+                     name = imagesacquisition_automoc;
+                     sourceTree = "<group>";
+              };
+              00037D3DA23342A7B22ACFBA /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              615FB22234A54FA792A88051 /* imagesacquisition */ = {
+                     isa = PBXGroup;
+                     children = (
+                            74A7FFCC44194D28ABEFA014 /* Header Files */,
+                            155CB65D659C49A7BF276891 /* Source Files */,
+                            571F1EF56E98408D9C490117 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/CMakeLists.txt */,
+                            C55434AFFBEE482BAC789BF6 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisition.ui */,
+                     );
+                     name = imagesacquisition;
+                     sourceTree = "<group>";
+              };
+              74A7FFCC44194D28ABEFA014 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6F04B58671384B63BA92FC0E /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/ui_ImagesAcquisition.h */,
+                            2BBC4B6129F64880BCA3F202 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.h */,
+                            C811B7F003CE43DB89D0403E /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.h */,
+                            4F08AE79D46C44789A4FD65A /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.h */,
+                            61763CE67DB24BACAAFEBC31 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.h */,
+                            CB7F1AAF1E634BD489D677C3 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              155CB65D659C49A7BF276891 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8BEFB99C1C1C49A5AE160F99 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/imagesacquisition_automoc.cpp */,
+                            BAF594E045F3408896100870 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.cpp */,
+                            5178862E64D3419D9FD41A4C /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.cpp */,
+                            44744EC3C12F4CFFAFB6B392 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.cpp */,
+                            61FEB8DA81134C80AAEA4F00 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.cpp */,
+                            5F12E2119AC24E01B5309792 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              ACC807BC0CEE41839A3D5432 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EA94BE7342F246D094BBDFBD /* CMake Rules */,
+                            9E4EE872BD1D425188EB68B7 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              EA94BE7342F246D094BBDFBD /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              66B055844D734F29B5DD99A5 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E8A62A9F92B64BA59A2F843F /* CMake Rules */,
+                            B56E7E621F5B4479A46BFABB /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              E8A62A9F92B64BA59A2F843F /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              653CC9D0C40A4A2AB471BEC7 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            837B2474178840C0875C60A1 /* imagesacquisition */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              1815469D3A164980AB890C71 /* imagesacquisition */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 5FE2CA1B9A96465091B8351F /* Build configuration list for PBXNativeTarget "imagesacquisition" */;
+                     buildPhases = (
+                            391515D007A94A61847E799B /* CMake Rules */,
+                            C2129CA3FE2941C18DBEF646 /* Sources */,
+                            BE79F860A25F4F9C94C7E3B1 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            8A6F362E7D45471C8F25F589 /* PBXTargetDependency */,
+                            49992542CAA4427D80D5AB12 /* PBXTargetDependency */,
+                     );
+                     name = imagesacquisition;
+                     productName = imagesacquisition;
+                     productReference = 837B2474178840C0875C60A1 /* imagesacquisition */;
+                     productType = "com.apple.product-type.library.dynamic";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              D1B153F092234DA883042318 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 8CB9509C0C77462F94E3C1DE /* Build configuration list for PBXProject  "ImagesAcquisitionPlugin" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            0893621E012B4449925CD7D1 /* Debug */,
+                            71B58C6C34B94952940D1CC2 /* Release */,
+                            FC3C343F210948CFB20915A3 /* MinSizeRel */,
+                            7824D8C94A344413A51C2391 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 8B982E019F204136929DF90B;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            6194A0DAF15F417EB46CEEAC /* ALL_BUILD */,
+                            E2C31C7960E446A699B08985 /* ZERO_CHECK */,
+                            1815469D3A164980AB890C71 /* imagesacquisition */,
+                            85E5A2AD611A4124B64E5ADC /* imagesacquisition_automoc */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              D8D7412CF17940518D283F05 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A4D207D6189E40B790389117 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/imagesacquisition/build -f /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              5F0BF81A105448A880A280B3 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              282D417904AE4BBB8E258500 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/imagesacquisition/build -f /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              391515D007A94A61847E799B /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/imagesacquisition/build -f /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeScripts/imagesacquisition_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              BE79F860A25F4F9C94C7E3B1 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/imagesacquisition/build -f /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeScripts/imagesacquisition_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              C8A014E95EC14F0D9575A027 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              350AE4EF895049B3A15EAFF1 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/imagesacquisition/build -f /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeScripts/imagesacquisition_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              C2129CA3FE2941C18DBEF646 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            8179C6044A504790B7E3D57C /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/imagesacquisition_automoc.cpp */,
+                            D2F6D8681F064CDCB04E76D1 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/CaptureThread.cpp */,
+                            DCC508F09CBD4ECC951C5460 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/Controller.cpp */,
+                            426648D65A80434782A48FD2 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImageBuffer.cpp */,
+                            9FDCB55C36EF476984BDCA80 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ImagesAcquisitionPlugin.cpp */,
+                            D21E61DF6785403AA6004FB4 /* /Users/longhung/dev/endotrack/plugins/imagesacquisition/src/ProcessingThread.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              8AA355DB88924F69A52555D5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 1815469D3A164980AB890C71 /* imagesacquisition */;
+                     targetProxy = 6FD8184518114B4D9EB45794 /* PBXContainerItemProxy */;
+              };
+              9B596A4E26D14BFFBDCF37CB /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E2C31C7960E446A699B08985 /* ZERO_CHECK */;
+                     targetProxy = F0B8BDA7E1AB4F8488A9B7DA /* PBXContainerItemProxy */;
+              };
+              8A6F362E7D45471C8F25F589 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E2C31C7960E446A699B08985 /* ZERO_CHECK */;
+                     targetProxy = 267F76AEDC8D4EC09BEB5CCE /* PBXContainerItemProxy */;
+              };
+              49992542CAA4427D80D5AB12 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 85E5A2AD611A4124B64E5ADC /* imagesacquisition_automoc */;
+                     targetProxy = 10501613545346FFBB029704 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              DB744474340749F9A3D67D38 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/build;
+                     };
+                     name = Debug;
+              };
+              64422749D74A4D0CA68D8307 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/build;
+                     };
+                     name = Release;
+              };
+              213F000DD17B4EDAA34BB26B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/build;
+                     };
+                     name = MinSizeRel;
+              };
+              CA795FA5055F4EFDAD68FF06 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              8A3ACF86587C4925AD203E8A /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              2666EA8FAC1444C0B4AA1CB3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              6DA5C870D6D34B93B22A8B9B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              70D6308A4ACC4469AF54E913 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              DF4095CB855747EF8D3B6C60 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              C7A6F8069C6A443682B6533B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              097F6C3C83934A05BDEDD386 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              D4B86FE647B74139948DBD48 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E51D7EB19D16412493230042 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Debug;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", imagesacquisition_EXPORTS, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Debug;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "   -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "   -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = imagesacquisition;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              5542AB188BB34CA38E942097 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Release;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", imagesacquisition_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Release;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = imagesacquisition;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              18E5AE95A7F345C2B080A9F3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/MinSizeRel;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", imagesacquisition_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/MinSizeRel;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = imagesacquisition;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              38ADE51EC8454187A0ACEC61 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/RelWithDebInfo;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", imagesacquisition_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/RelWithDebInfo;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = imagesacquisition;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              2EA3801D533E4B7185130E0E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = imagesacquisition_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              008F1A6ADC494024AC2C5ED3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = imagesacquisition_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              902D64F1E33D4615845E253A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = imagesacquisition_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              00E69A70BD77495DB5992D9E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/imagesacquisition/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = imagesacquisition_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/imagesacquisition/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              8CB9509C0C77462F94E3C1DE /* Build configuration list for PBXProject  "ImagesAcquisitionPlugin" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            DB744474340749F9A3D67D38 /* Debug */,
+                            64422749D74A4D0CA68D8307 /* Release */,
+                            213F000DD17B4EDAA34BB26B /* MinSizeRel */,
+                            CA795FA5055F4EFDAD68FF06 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A4941730FE2D4876A13C1537 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8A3ACF86587C4925AD203E8A /* Debug */,
+                            2666EA8FAC1444C0B4AA1CB3 /* Release */,
+                            6DA5C870D6D34B93B22A8B9B /* MinSizeRel */,
+                            70D6308A4ACC4469AF54E913 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              7059CFB1503144629F2F5E48 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            DF4095CB855747EF8D3B6C60 /* Debug */,
+                            C7A6F8069C6A443682B6533B /* Release */,
+                            097F6C3C83934A05BDEDD386 /* MinSizeRel */,
+                            D4B86FE647B74139948DBD48 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              5FE2CA1B9A96465091B8351F /* Build configuration list for PBXNativeTarget "imagesacquisition" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E51D7EB19D16412493230042 /* Debug */,
+                            5542AB188BB34CA38E942097 /* Release */,
+                            18E5AE95A7F345C2B080A9F3 /* MinSizeRel */,
+                            38ADE51EC8454187A0ACEC61 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E1E28906D5274C2F9DE79513 /* Build configuration list for PBXAggregateTarget "imagesacquisition_automoc" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2EA3801D533E4B7185130E0E /* Debug */,
+                            008F1A6ADC494024AC2C5ED3 /* Release */,
+                            902D64F1E33D4615845E253A /* MinSizeRel */,
+                            00E69A70BD77495DB5992D9E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = D1B153F092234DA883042318;
+}

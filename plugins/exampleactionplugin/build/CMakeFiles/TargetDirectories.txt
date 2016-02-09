@@ -1,0 +1,4 @@
+/Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeFiles/exampleaction.dir
+/Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeFiles/exampleaction_automoc.dir
+/Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeFiles/ALL_BUILD.dir
+/Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeFiles/ZERO_CHECK.dir

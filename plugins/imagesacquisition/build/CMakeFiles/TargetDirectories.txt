@@ -1,0 +1,4 @@
+/Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeFiles/imagesacquisition_automoc.dir
+/Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeFiles/imagesacquisition.dir
+/Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeFiles/ALL_BUILD.dir
+/Users/longhung/dev/endotrack/plugins/imagesacquisition/build/CMakeFiles/ZERO_CHECK.dir

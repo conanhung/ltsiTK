@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              B0D0E3908D56434F87AB1DE5 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A29025CB44E049F2B60B8CE6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            78DB764FDA9243488F75CEA5 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            C14E0836A0C64846AB4B05F2 /* PBXTargetDependency */,
+                            6187BF8C76134C008A0BF93B /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              C91F0948120E4B3EBF3EBC34 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A936E71191E246A689ADB7D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            C5BBDEF3BE6E493B960F61C6 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              B230D11096AD4592B2E508CD /* drawingtools_automoc */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 7B38B52FE77B413CBB3716AA /* Build configuration list for PBXAggregateTarget "drawingtools_automoc" */;
+                     buildPhases = (
+                            1D5153D59F6C4E88B62A7601 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = drawingtools_automoc;
+                     productName = drawingtools_automoc;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+D0806808CC8C4A2DAC1CC0F7 /* /Users/longhung/dev/endotrack/plugins/drawingtools/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CE53869672854FBBB7939609 /* /Users/longhung/dev/endotrack/plugins/drawingtools/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+4CA338D775834E6595BAB90A /* /Users/longhung/dev/endotrack/plugins/drawingtools/build/drawingtools_automoc.cpp */ = {isa = PBXBuildFile; fileRef = 85B9FDEDC0C141F799799543 /* /Users/longhung/dev/endotrack/plugins/drawingtools/build/drawingtools_automoc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F4290997212147AB8B9349D0 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.cpp */ = {isa = PBXBuildFile; fileRef = 6BBA046BBEBB4B69A88A2413 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E2320B7163A846238F089680 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.h */ = {isa = PBXBuildFile; fileRef = C73736C0FE8249248683B314 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.h */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              5ED7439D96A64BA0BB57727F /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              B108637D3D99483189E75092 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              4C7D83719A8342619EF18695 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              DC91ECF845574BBEAE6073FE /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              69DD56390EB841BEBA6B42BB /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              A5AE64DDFDE94E53BBFCEE69 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E62E69A2F5FB4351BEA9C9AA /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DB9E63B26EFC40A688EA561C;
+                     remoteInfo = drawingtools;
+              };
+              8FA607E787B940BD82E6AC01 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E62E69A2F5FB4351BEA9C9AA /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = C91F0948120E4B3EBF3EBC34;
+                     remoteInfo = ZERO_CHECK;
+              };
+              892AD3E4623F48308E2CF728 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E62E69A2F5FB4351BEA9C9AA /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B230D11096AD4592B2E508CD;
+                     remoteInfo = drawingtools_automoc;
+              };
+              AD231F7B4DFC4DEDADF5412F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E62E69A2F5FB4351BEA9C9AA /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = C91F0948120E4B3EBF3EBC34;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+99B9F8F56E33409DB058CA62 /* /Users/longhung/dev/endotrack/plugins/drawingtools/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+93B8A0D0E0BE40A3A89430DA /* /Users/longhung/dev/endotrack/plugins/drawingtools/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+CE53869672854FBBB7939609 /* /Users/longhung/dev/endotrack/plugins/drawingtools/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+85B9FDEDC0C141F799799543 /* /Users/longhung/dev/endotrack/plugins/drawingtools/build/drawingtools_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "drawingtools_automoc.cpp"; path = "build/drawingtools_automoc.cpp"; sourceTree = SOURCE_ROOT; };
+6BBA046BBEBB4B69A88A2413 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "drawingtoolsplugin.cpp"; path = "src/drawingtoolsplugin.cpp"; sourceTree = SOURCE_ROOT; };
+C73736C0FE8249248683B314 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "drawingtoolsplugin.h"; path = "src/drawingtoolsplugin.h"; sourceTree = SOURCE_ROOT; };
+751B3E808BEE4A4FAAC09C4A /* drawingtools */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libdrawingtools.dylib"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              F6F20FBCFBF34C249195E96C  = {
+                     isa = PBXGroup;
+                     children = (
+                            82E31EF8BF174B27873C5198 /* Sources */,
+                            73895203A5EB45A78A5823FC /* Resources */,
+                            84203B5BBE0646899AE4A4EE /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              82E31EF8BF174B27873C5198 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C3D2057DE66C4310B894E905 /* drawingtools */,
+                            E7A93E6D530F4C649C46CB2F /* drawingtools_automoc */,
+                            B14E57659D294D31A0930F17 /* ALL_BUILD */,
+                            20F2F1A331B14CE898749E90 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              73895203A5EB45A78A5823FC /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              C3D2057DE66C4310B894E905 /* drawingtools */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EC20A71A8B5445F296AA92F6 /* Source Files */,
+                            94ECF81D8F0F4980B37CAED7 /* Header Files */,
+                            CE53869672854FBBB7939609 /* /Users/longhung/dev/endotrack/plugins/drawingtools/CMakeLists.txt */,
+                     );
+                     name = drawingtools;
+                     sourceTree = "<group>";
+              };
+              EC20A71A8B5445F296AA92F6 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            85B9FDEDC0C141F799799543 /* /Users/longhung/dev/endotrack/plugins/drawingtools/build/drawingtools_automoc.cpp */,
+                            6BBA046BBEBB4B69A88A2413 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              94ECF81D8F0F4980B37CAED7 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C73736C0FE8249248683B314 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              E7A93E6D530F4C649C46CB2F /* drawingtools_automoc */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DF9148DB70084B9FAA84D857 /* CMake Rules */,
+                     );
+                     name = drawingtools_automoc;
+                     sourceTree = "<group>";
+              };
+              DF9148DB70084B9FAA84D857 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              B14E57659D294D31A0930F17 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8FD8048DF9F14AD6B581FF48 /* CMake Rules */,
+                            99B9F8F56E33409DB058CA62 /* /Users/longhung/dev/endotrack/plugins/drawingtools/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              8FD8048DF9F14AD6B581FF48 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              20F2F1A331B14CE898749E90 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FFEB12CA94F649C6BE6104E0 /* CMake Rules */,
+                            93B8A0D0E0BE40A3A89430DA /* /Users/longhung/dev/endotrack/plugins/drawingtools/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              FFEB12CA94F649C6BE6104E0 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              84203B5BBE0646899AE4A4EE /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            751B3E808BEE4A4FAAC09C4A /* drawingtools */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              DB9E63B26EFC40A688EA561C /* drawingtools */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 236B719D5E8B4331BDD87BB3 /* Build configuration list for PBXNativeTarget "drawingtools" */;
+                     buildPhases = (
+                            FAEE1E89744F49478D0519F7 /* Sources */,
+                            3CBD97776A944F67B6B34F0E /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            30AB920A8BF04120B21D184E /* PBXTargetDependency */,
+                            9D1F165AEBA0419F8D91DB49 /* PBXTargetDependency */,
+                     );
+                     name = drawingtools;
+                     productName = drawingtools;
+                     productReference = 751B3E808BEE4A4FAAC09C4A /* drawingtools */;
+                     productType = "com.apple.product-type.library.dynamic";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              E62E69A2F5FB4351BEA9C9AA /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = AC943879AEC44E64B3D94BD6 /* Build configuration list for PBXProject  "drawingtools" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            B108637D3D99483189E75092 /* Debug */,
+                            4C7D83719A8342619EF18695 /* Release */,
+                            DC91ECF845574BBEAE6073FE /* MinSizeRel */,
+                            69DD56390EB841BEBA6B42BB /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = F6F20FBCFBF34C249195E96C;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            B0D0E3908D56434F87AB1DE5 /* ALL_BUILD */,
+                            C91F0948120E4B3EBF3EBC34 /* ZERO_CHECK */,
+                            DB9E63B26EFC40A688EA561C /* drawingtools */,
+                            B230D11096AD4592B2E508CD /* drawingtools_automoc */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              5FF509300080415C8E037AF1 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              78DB764FDA9243488F75CEA5 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/drawingtools/build -f /Users/longhung/dev/endotrack/plugins/drawingtools/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              6C3248DA48544B6E9BD7CDDC /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              C5BBDEF3BE6E493B960F61C6 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/drawingtools/build -f /Users/longhung/dev/endotrack/plugins/drawingtools/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              3CBD97776A944F67B6B34F0E /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/drawingtools/build -f /Users/longhung/dev/endotrack/plugins/drawingtools/build/CMakeScripts/drawingtools_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              09C5024F64124449B07D38E8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              1D5153D59F6C4E88B62A7601 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/drawingtools/build -f /Users/longhung/dev/endotrack/plugins/drawingtools/build/CMakeScripts/drawingtools_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              FAEE1E89744F49478D0519F7 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            4CA338D775834E6595BAB90A /* /Users/longhung/dev/endotrack/plugins/drawingtools/build/drawingtools_automoc.cpp */,
+                            F4290997212147AB8B9349D0 /* /Users/longhung/dev/endotrack/plugins/drawingtools/src/drawingtoolsplugin.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              C14E0836A0C64846AB4B05F2 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DB9E63B26EFC40A688EA561C /* drawingtools */;
+                     targetProxy = A5AE64DDFDE94E53BBFCEE69 /* PBXContainerItemProxy */;
+              };
+              6187BF8C76134C008A0BF93B /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = C91F0948120E4B3EBF3EBC34 /* ZERO_CHECK */;
+                     targetProxy = 8FA607E787B940BD82E6AC01 /* PBXContainerItemProxy */;
+              };
+              30AB920A8BF04120B21D184E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = B230D11096AD4592B2E508CD /* drawingtools_automoc */;
+                     targetProxy = 892AD3E4623F48308E2CF728 /* PBXContainerItemProxy */;
+              };
+              9D1F165AEBA0419F8D91DB49 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = C91F0948120E4B3EBF3EBC34 /* ZERO_CHECK */;
+                     targetProxy = AD231F7B4DFC4DEDADF5412F /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              879818A7538A403C91434312 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build/build;
+                     };
+                     name = Debug;
+              };
+              C092E402DC154D459C4D319E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build/build;
+                     };
+                     name = Release;
+              };
+              E8189A06D5804F409464C10D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build/build;
+                     };
+                     name = MinSizeRel;
+              };
+              1C80A734810E4712966D9E80 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              B9ABB2593B76412FBED89B9F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              39DBC8CEBF3045FFAC7DA6A9 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              A4F02742A3824C9EA6A1F1B0 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              A4ED9A8CC14C434B976E3CE4 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              1C97499CD37B4FF2A4BD31E2 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              8C78A6A8CD8B4D63AAD2605E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              F656AD2EB94E458A9AF486AA /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              DDFAFE4C36CC4967A7EE078B /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              8808213C4A9A4915B6294646 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Debug;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", drawingtools_EXPORTS, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Debug;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "   -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "   -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = drawingtools;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              4EF4F7CC5EC6406282BEDB64 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Release;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", drawingtools_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Release;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = drawingtools;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              0CF55F87179A4E329D7192C1 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/MinSizeRel;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", drawingtools_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/MinSizeRel;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = drawingtools;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              E070A4F40AED4673A1084751 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/RelWithDebInfo;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", drawingtools_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/RelWithDebInfo;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = drawingtools;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              2441962FFB7C45AB8C22AE15 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = drawingtools_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              51A5B4FCA1904B11BFA7FC83 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = drawingtools_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              B642D82F98634FB4AB10571B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = drawingtools_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              B36BAD489CBF478EB5E37DB4 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/drawingtools, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/drawingtools/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = drawingtools_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/drawingtools/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              AC943879AEC44E64B3D94BD6 /* Build configuration list for PBXProject  "drawingtools" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            879818A7538A403C91434312 /* Debug */,
+                            C092E402DC154D459C4D319E /* Release */,
+                            E8189A06D5804F409464C10D /* MinSizeRel */,
+                            1C80A734810E4712966D9E80 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A29025CB44E049F2B60B8CE6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B9ABB2593B76412FBED89B9F /* Debug */,
+                            39DBC8CEBF3045FFAC7DA6A9 /* Release */,
+                            A4F02742A3824C9EA6A1F1B0 /* MinSizeRel */,
+                            A4ED9A8CC14C434B976E3CE4 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A936E71191E246A689ADB7D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1C97499CD37B4FF2A4BD31E2 /* Debug */,
+                            8C78A6A8CD8B4D63AAD2605E /* Release */,
+                            F656AD2EB94E458A9AF486AA /* MinSizeRel */,
+                            DDFAFE4C36CC4967A7EE078B /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              236B719D5E8B4331BDD87BB3 /* Build configuration list for PBXNativeTarget "drawingtools" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8808213C4A9A4915B6294646 /* Debug */,
+                            4EF4F7CC5EC6406282BEDB64 /* Release */,
+                            0CF55F87179A4E329D7192C1 /* MinSizeRel */,
+                            E070A4F40AED4673A1084751 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              7B38B52FE77B413CBB3716AA /* Build configuration list for PBXAggregateTarget "drawingtools_automoc" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2441962FFB7C45AB8C22AE15 /* Debug */,
+                            51A5B4FCA1904B11BFA7FC83 /* Release */,
+                            B642D82F98634FB4AB10571B /* MinSizeRel */,
+                            B36BAD489CBF478EB5E37DB4 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = E62E69A2F5FB4351BEA9C9AA;
+}

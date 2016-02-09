@@ -1,0 +1,4 @@
+/Users/longhung/dev/endotrack/plugins/drawingtools/build/CMakeFiles/drawingtools.dir
+/Users/longhung/dev/endotrack/plugins/drawingtools/build/CMakeFiles/drawingtools_automoc.dir
+/Users/longhung/dev/endotrack/plugins/drawingtools/build/CMakeFiles/ALL_BUILD.dir
+/Users/longhung/dev/endotrack/plugins/drawingtools/build/CMakeFiles/ZERO_CHECK.dir

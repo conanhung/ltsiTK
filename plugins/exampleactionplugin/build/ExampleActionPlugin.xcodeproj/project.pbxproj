@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              140772B45B2B4E33BC5A55FD /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 45298A038C3248D29A4FC079 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            D8EC8BAB32414711B879F278 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            DEBAE3879EB243E1A2607699 /* PBXTargetDependency */,
+                            9785083D6FB543D0A2171350 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              BE78822EEB3046F8A7E47600 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 72E2E27840DD49CCB718F71E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            6C2AD69A4D1142088DEAA020 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              EF69E71B6D184960B7A254C2 /* exampleaction_automoc */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = BD78095FC5534F59B83A76E8 /* Build configuration list for PBXAggregateTarget "exampleaction_automoc" */;
+                     buildPhases = (
+                            9B8DBF82756445938EABC348 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = exampleaction_automoc;
+                     productName = exampleaction_automoc;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+9C5E6ACBC7B74FCDA41A6869 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 51B3E23406734BFF8C80802D /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+B48B5046424F42FDA8421296 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/exampleaction_automoc.cpp */ = {isa = PBXBuildFile; fileRef = E8C27EC3ED32454CBEA5B7B0 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/exampleaction_automoc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F14208E98CF449AAA5412712 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/ui_ExampleAction.h */ = {isa = PBXBuildFile; fileRef = 3A7400D449504E3BB0F1386C /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/ui_ExampleAction.h */; settings = { COMPILER_FLAGS = ""; }; };
+59228F217C304E7BA2CA0DBA /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleAction.ui */ = {isa = PBXBuildFile; fileRef = C9BF833EEC1E420ABAAAD9C4 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleAction.ui */; settings = { COMPILER_FLAGS = ""; }; };
+1480B2C130224C6E9B1A9CAC /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.cpp */ = {isa = PBXBuildFile; fileRef = 6995746349D34935A254125B /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3C11C2C42D734FD5AF5DF1FA /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.h */ = {isa = PBXBuildFile; fileRef = B910D9ACDC9A4C6B98A5A6B4 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.h */; settings = { COMPILER_FLAGS = ""; }; };
+F1A02A32FEAE413296C108B6 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.cpp */ = {isa = PBXBuildFile; fileRef = B201E359AD5F449AA183D89D /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7F09CB86230B427FA3FD77D7 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.h */ = {isa = PBXBuildFile; fileRef = 52E74456ECEC4DBF96CBB067 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.h */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              E6E2BF64FAFE4214A02A1641 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              14BA027D342241B0BB5C19A9 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              5FF73D4F85634D46953D73DA /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              19B1FEDDD7CB4FBD85D925B8 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              3D96BEB23F404A9481B83150 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              A76B50A8F7A84032BC45FA75 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2625E25C681044F3BCCDC14E /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BE78822EEB3046F8A7E47600;
+                     remoteInfo = ZERO_CHECK;
+              };
+              6106018ACAD94B6C8F241094 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2625E25C681044F3BCCDC14E /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 3AB95B7C44404C60A5C647D2;
+                     remoteInfo = exampleaction;
+              };
+              A42C82B504B74DBFB9AAAF46 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2625E25C681044F3BCCDC14E /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BE78822EEB3046F8A7E47600;
+                     remoteInfo = ZERO_CHECK;
+              };
+              717C851D6093431A86FE6E41 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2625E25C681044F3BCCDC14E /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EF69E71B6D184960B7A254C2;
+                     remoteInfo = exampleaction_automoc;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+1014F6ED83CD404D9F09EFEC /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+4F5C889132514E5496014545 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+51B3E23406734BFF8C80802D /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+E8C27EC3ED32454CBEA5B7B0 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/exampleaction_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "exampleaction_automoc.cpp"; path = "build/exampleaction_automoc.cpp"; sourceTree = SOURCE_ROOT; };
+3A7400D449504E3BB0F1386C /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/ui_ExampleAction.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "ui_ExampleAction.h"; path = "build/ui_ExampleAction.h"; sourceTree = SOURCE_ROOT; };
+C9BF833EEC1E420ABAAAD9C4 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleAction.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = "ExampleAction.ui"; path = "src/ExampleAction.ui"; sourceTree = SOURCE_ROOT; };
+6995746349D34935A254125B /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ExampleActionPlugin.cpp"; path = "src/ExampleActionPlugin.cpp"; sourceTree = SOURCE_ROOT; };
+B910D9ACDC9A4C6B98A5A6B4 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "ExampleActionPlugin.h"; path = "src/ExampleActionPlugin.h"; sourceTree = SOURCE_ROOT; };
+B201E359AD5F449AA183D89D /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MatToQImage.cpp"; path = "src/MatToQImage.cpp"; sourceTree = SOURCE_ROOT; };
+52E74456ECEC4DBF96CBB067 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "MatToQImage.h"; path = "src/MatToQImage.h"; sourceTree = SOURCE_ROOT; };
+6C8F8A0A2BD84A46BD530845 /* exampleaction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libexampleaction.dylib"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              90F76C4B2CB045A0A3E1AAE0  = {
+                     isa = PBXGroup;
+                     children = (
+                            49573D633C90410FAA81E410 /* Sources */,
+                            2AF3C1577B7F483C9F1B5A7C /* Resources */,
+                            C733C5C068BA4EAB962BC99A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              49573D633C90410FAA81E410 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            22CAE14947DF441AADAB6421 /* exampleaction */,
+                            0A4901EA10954A7FA01837B1 /* exampleaction_automoc */,
+                            4F74DB34F8A1470AA3F6C18A /* ALL_BUILD */,
+                            4F4DDE4B66B74CA09176B36C /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              2AF3C1577B7F483C9F1B5A7C /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              22CAE14947DF441AADAB6421 /* exampleaction */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E4B12CEBEB7242CE85581229 /* Header Files */,
+                            08A907C546B04D3AB0D804B1 /* Source Files */,
+                            51B3E23406734BFF8C80802D /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/CMakeLists.txt */,
+                            C9BF833EEC1E420ABAAAD9C4 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleAction.ui */,
+                     );
+                     name = exampleaction;
+                     sourceTree = "<group>";
+              };
+              E4B12CEBEB7242CE85581229 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3A7400D449504E3BB0F1386C /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/ui_ExampleAction.h */,
+                            B910D9ACDC9A4C6B98A5A6B4 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.h */,
+                            52E74456ECEC4DBF96CBB067 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              08A907C546B04D3AB0D804B1 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E8C27EC3ED32454CBEA5B7B0 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/exampleaction_automoc.cpp */,
+                            6995746349D34935A254125B /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.cpp */,
+                            B201E359AD5F449AA183D89D /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              0A4901EA10954A7FA01837B1 /* exampleaction_automoc */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6ACF929FA3C145D0B79A33E0 /* CMake Rules */,
+                     );
+                     name = exampleaction_automoc;
+                     sourceTree = "<group>";
+              };
+              6ACF929FA3C145D0B79A33E0 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              4F74DB34F8A1470AA3F6C18A /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DCEBF1E80ACD49E5AA108267 /* CMake Rules */,
+                            1014F6ED83CD404D9F09EFEC /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              DCEBF1E80ACD49E5AA108267 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              4F4DDE4B66B74CA09176B36C /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            668DCDD7824F457B921EC161 /* CMake Rules */,
+                            4F5C889132514E5496014545 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              668DCDD7824F457B921EC161 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C733C5C068BA4EAB962BC99A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6C8F8A0A2BD84A46BD530845 /* exampleaction */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              3AB95B7C44404C60A5C647D2 /* exampleaction */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = DA0E2C2426B5411A9FC49C9F /* Build configuration list for PBXNativeTarget "exampleaction" */;
+                     buildPhases = (
+                            E92569A3D16241D2B7D9D4B3 /* CMake Rules */,
+                            4BEB3CD9900F4B5E99D3ABDF /* Sources */,
+                            AA32F167B1DC45589B5BE7F2 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            41880CBC6A864F9A869D1ACE /* PBXTargetDependency */,
+                            4D62638D3914473CAA5B2599 /* PBXTargetDependency */,
+                     );
+                     name = exampleaction;
+                     productName = exampleaction;
+                     productReference = 6C8F8A0A2BD84A46BD530845 /* exampleaction */;
+                     productType = "com.apple.product-type.library.dynamic";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              2625E25C681044F3BCCDC14E /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 30D2C6CAADAD4ACF9CFBB03D /* Build configuration list for PBXProject  "ExampleActionPlugin" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            14BA027D342241B0BB5C19A9 /* Debug */,
+                            5FF73D4F85634D46953D73DA /* Release */,
+                            19B1FEDDD7CB4FBD85D925B8 /* MinSizeRel */,
+                            3D96BEB23F404A9481B83150 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 90F76C4B2CB045A0A3E1AAE0;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            140772B45B2B4E33BC5A55FD /* ALL_BUILD */,
+                            BE78822EEB3046F8A7E47600 /* ZERO_CHECK */,
+                            3AB95B7C44404C60A5C647D2 /* exampleaction */,
+                            EF69E71B6D184960B7A254C2 /* exampleaction_automoc */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              43FCC9AB4D7E40AA9F652299 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              D8EC8BAB32414711B879F278 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build -f /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7167D2621D4640918F4133BF /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              6C2AD69A4D1142088DEAA020 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build -f /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              E92569A3D16241D2B7D9D4B3 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build -f /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeScripts/exampleaction_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              AA32F167B1DC45589B5BE7F2 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build -f /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeScripts/exampleaction_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              A6A7CF793B044EA29057B389 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              9B8DBF82756445938EABC348 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build -f /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/CMakeScripts/exampleaction_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              4BEB3CD9900F4B5E99D3ABDF /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            B48B5046424F42FDA8421296 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/exampleaction_automoc.cpp */,
+                            1480B2C130224C6E9B1A9CAC /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/ExampleActionPlugin.cpp */,
+                            F1A02A32FEAE413296C108B6 /* /Users/longhung/dev/endotrack/plugins/exampleactionplugin/src/MatToQImage.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              DEBAE3879EB243E1A2607699 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BE78822EEB3046F8A7E47600 /* ZERO_CHECK */;
+                     targetProxy = A76B50A8F7A84032BC45FA75 /* PBXContainerItemProxy */;
+              };
+              9785083D6FB543D0A2171350 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 3AB95B7C44404C60A5C647D2 /* exampleaction */;
+                     targetProxy = 6106018ACAD94B6C8F241094 /* PBXContainerItemProxy */;
+              };
+              41880CBC6A864F9A869D1ACE /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BE78822EEB3046F8A7E47600 /* ZERO_CHECK */;
+                     targetProxy = A42C82B504B74DBFB9AAAF46 /* PBXContainerItemProxy */;
+              };
+              4D62638D3914473CAA5B2599 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EF69E71B6D184960B7A254C2 /* exampleaction_automoc */;
+                     targetProxy = 717C851D6093431A86FE6E41 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              443F0140C80A427A8DACEC6D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/build;
+                     };
+                     name = Debug;
+              };
+              C5516F69F2DA42BBB0F10AF3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/build;
+                     };
+                     name = Release;
+              };
+              795127A0D004481CA6106BF1 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/build;
+                     };
+                     name = MinSizeRel;
+              };
+              53CD221C707B479990E6A86C /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              7283D87601CC4CEEBF657FE8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              9D194355F563489F8053F151 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              F7F974A5B1B840688BF0B5E9 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              A0CEFB2DC8A94280A330B5B3 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              BC0F39D94144484F80B23653 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              CB21B24244204722A2D4473D /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              401A93EE1D334416B9EA81C6 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              C929E02E611A4B14B3B403E5 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              ADA6AD497EFB4C85938664EB /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Debug;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", exampleaction_EXPORTS, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Debug;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "   -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "   -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = exampleaction;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              3D965C4CBE8F4B6D8B407E09 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Release;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", exampleaction_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/Release;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = exampleaction;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              271BAA9E96D647C7AD47202D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/MinSizeRel;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", exampleaction_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/MinSizeRel;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = exampleaction;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              5A39642914C646FBA4F8473F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/RelWithDebInfo;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", exampleaction_EXPORTS, QT_NO_DEBUG, QT_GUI_LIB, QT_CORE_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = /Users/longhung/dev/endotrack/build/bin/Debug/plugins/RelWithDebInfo;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  /Users/longhung/dev/endotrack/build/lib/Debug/libEndoTrackCored.dylib /usr/local/lib/libopencv_xphoto.3.0.0.dylib /usr/local/lib/libopencv_xobjdetect.3.0.0.dylib /usr/local/lib/libopencv_tracking.3.0.0.dylib /usr/local/lib/libopencv_surface_matching.3.0.0.dylib /usr/local/lib/libopencv_structured_light.3.0.0.dylib /usr/local/lib/libopencv_stereo.3.0.0.dylib /usr/local/lib/libopencv_saliency.3.0.0.dylib /usr/local/lib/libopencv_rgbd.3.0.0.dylib /usr/local/lib/libopencv_reg.3.0.0.dylib /usr/local/lib/libopencv_optflow.3.0.0.dylib /usr/local/lib/libopencv_line_descriptor.3.0.0.dylib /usr/local/lib/libopencv_hdf.3.0.0.dylib /usr/local/lib/libopencv_dpm.3.0.0.dylib /usr/local/lib/libopencv_dnn.3.0.0.dylib /usr/local/lib/libopencv_datasets.3.0.0.dylib /usr/local/lib/libopencv_ccalib.3.0.0.dylib /usr/local/lib/libopencv_bioinspired.3.0.0.dylib /usr/local/lib/libopencv_bgsegm.3.0.0.dylib /usr/local/lib/libopencv_aruco.3.0.0.dylib /usr/local/lib/libopencv_viz.3.0.0.dylib /usr/local/lib/libopencv_videostab.3.0.0.dylib /usr/local/lib/libopencv_superres.3.0.0.dylib /usr/local/lib/libopencv_stitching.3.0.0.dylib /usr/local/lib/libopencv_photo.3.0.0.dylib /usr/local/lib/libopencv_hal.a -framework QtGui -framework QtCore /usr/local/lib/libopencv_text.3.0.0.dylib /usr/local/lib/libopencv_face.3.0.0.dylib /usr/local/lib/libopencv_ximgproc.3.0.0.dylib /usr/local/lib/libopencv_xfeatures2d.3.0.0.dylib /usr/local/lib/libopencv_shape.3.0.0.dylib /usr/local/lib/libopencv_video.3.0.0.dylib /usr/local/lib/libopencv_objdetect.3.0.0.dylib /usr/local/lib/libopencv_calib3d.3.0.0.dylib /usr/local/lib/libopencv_features2d.3.0.0.dylib /usr/local/lib/libopencv_ml.3.0.0.dylib /usr/local/lib/libopencv_highgui.3.0.0.dylib /usr/local/lib/libopencv_videoio.3.0.0.dylib /usr/local/lib/libopencv_imgcodecs.3.0.0.dylib /usr/local/lib/libopencv_imgproc.3.0.0.dylib /usr/local/lib/libopencv_flann.3.0.0.dylib /usr/local/lib/libopencv_core.3.0.0.dylib /usr/local/lib/libopencv_hal.a /usr/local/share/OpenCV/3rdparty/lib/libippicv.a";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = exampleaction;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              57705C5CE8244C1A9FDF977F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = exampleaction_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              F791CB4CB48643B4AED42F49 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = exampleaction_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              57CC7811BE4C4516A8BF7690 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = exampleaction_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              1EC1DF9A2D15492EBD476C83 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            FRAMEWORK_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/usr/local/Cellar/qt/4.8.7_1/include", "/usr/local/Cellar/qt/4.8.7_1/include/QtGui", "/usr/local/Cellar/qt/4.8.7_1/lib/QtCore.framework/Headers", /Users/longhung/dev/endotrack/src/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin, /usr/local/include/opencv, /usr/local/include, /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = exampleaction_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/longhung/dev/endotrack/plugins/exampleactionplugin/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              30D2C6CAADAD4ACF9CFBB03D /* Build configuration list for PBXProject  "ExampleActionPlugin" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            443F0140C80A427A8DACEC6D /* Debug */,
+                            C5516F69F2DA42BBB0F10AF3 /* Release */,
+                            795127A0D004481CA6106BF1 /* MinSizeRel */,
+                            53CD221C707B479990E6A86C /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              45298A038C3248D29A4FC079 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7283D87601CC4CEEBF657FE8 /* Debug */,
+                            9D194355F563489F8053F151 /* Release */,
+                            F7F974A5B1B840688BF0B5E9 /* MinSizeRel */,
+                            A0CEFB2DC8A94280A330B5B3 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              72E2E27840DD49CCB718F71E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            BC0F39D94144484F80B23653 /* Debug */,
+                            CB21B24244204722A2D4473D /* Release */,
+                            401A93EE1D334416B9EA81C6 /* MinSizeRel */,
+                            C929E02E611A4B14B3B403E5 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              DA0E2C2426B5411A9FC49C9F /* Build configuration list for PBXNativeTarget "exampleaction" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            ADA6AD497EFB4C85938664EB /* Debug */,
+                            3D965C4CBE8F4B6D8B407E09 /* Release */,
+                            271BAA9E96D647C7AD47202D /* MinSizeRel */,
+                            5A39642914C646FBA4F8473F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BD78095FC5534F59B83A76E8 /* Build configuration list for PBXAggregateTarget "exampleaction_automoc" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            57705C5CE8244C1A9FDF977F /* Debug */,
+                            F791CB4CB48643B4AED42F49 /* Release */,
+                            57CC7811BE4C4516A8BF7690 /* MinSizeRel */,
+                            1EC1DF9A2D15492EBD476C83 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 2625E25C681044F3BCCDC14E;
+}
